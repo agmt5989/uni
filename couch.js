@@ -1,4 +1,4 @@
-var couchbase = require("./lib/couchbase.js"),
+var couchbase = require("couchbase"),
     http = require("http"),
     fs = require("fs"),
     util = require("util");
