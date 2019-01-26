@@ -1,5 +1,7 @@
 'use strict';
 
+const
+
 // Create a driver instance, for the user neo4j with password neo4j.
 // It should be enough to have a single driver per database per application.
 let driver = neo4j.driver("bolt://localhost", neo4j.auth.basic("neo4j", "neo4j"));
