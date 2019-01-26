@@ -9,7 +9,7 @@ let driver = neo4j.driver("bolt://localhost", neo4j.auth.basic("neo4j", "admin")
 // Create a session to run Cypher statements in.
 // Note: Always make sure to close sessions when you are done using them!
 let session = driver.session();
-console.log(session);
+console.log(driver);
 
 // Run a Cypher statement, reading the result in a streaming manner as records arrive:
 session
