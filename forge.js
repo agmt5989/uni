@@ -4,7 +4,7 @@ const neo4j = require('neo4j-driver').v1;
 
 // Create a driver instance, for the user neo4j with password neo4j.
 // It should be enough to have a single driver per database per application.
-let driver = neo4j.driver("bolt://localhost:7687", neo4j.auth.basic("neo4j", "admins"));
+let driver = neo4j.driver("bolt://localhost:7687", neo4j.auth.basic("neo4j", "neo4j"));
 console.log(driver);
 
 // Create a session to run Cypher statements in.
