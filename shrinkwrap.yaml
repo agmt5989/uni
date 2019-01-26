@@ -29,10 +29,12 @@ dependencies:
   css-loader: 2.1.0
   express: 4.16.4
   express-graphql: 0.7.1
+  fs: 0.0.1-security
   graphql: 14.1.1
   graphql-tag: 2.10.1
   graphql-tools: 4.0.3
   hapi: 18.0.0
+  http: 0.0.0
   koa: 2.6.2
   mdb-cli: 1.0.0
   mdbootstrap: 4.7.0
@@ -60,6 +62,7 @@ dependencies:
   seneca-neo4j-store: 1.0.10
   style-loader: 0.23.1
   typescript: 3.2.4
+  util: 0.11.1
   webpack: 4.29.0
   webpack-cli: 3.2.1
   webpack-dev-server: 3.1.14
@@ -5265,6 +5268,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+  /fs/0.0.1-security:
+    dev: false
+    resolution:
+      integrity: sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
   /fsevents/1.2.7:
     bundledDependencies:
       - node-pre-gyp
@@ -5860,6 +5867,10 @@ packages:
       node: '>= 0.4.0'
     resolution:
       integrity: sha1-3EMAGov8UKyH1IWokvdXiWS8lKI=
+  /http/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-huYybSnF0Dnen6xYSkVon5KfT3I=
   /https-browserify/1.0.0:
     dev: false
     resolution:
@@ -10895,10 +10906,12 @@ specifiers:
   css-loader: ^2.1.0
   express: ^4.16.4
   express-graphql: ^0.7.1
+  fs: ^0.0.1-security
   graphql: ^14.1.1
   graphql-tag: ^2.10.1
   graphql-tools: ^4.0.3
   hapi: ^18.0.0
+  http: ^0.0.0
   koa: ^2.6.2
   mdb-cli: ^1.0.0
   mdbootstrap: ^4.7.0
@@ -10926,6 +10939,7 @@ specifiers:
   seneca-neo4j-store: ^1.0.10
   style-loader: ^0.23.1
   typescript: ^3.2.4
+  util: ^0.11.1
   webpack: ^4.29.0
   webpack-cli: ^3.2.1
   webpack-dev-server: ^3.1.14
