@@ -1,6 +1,6 @@
 'use strict';
 
-const neo4j = 
+const neo4j = require('')
 
 // Create a driver instance, for the user neo4j with password neo4j.
 // It should be enough to have a single driver per database per application.
